@@ -97,14 +97,15 @@ body{
 
 /* KPI grid */
 .kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;padding:0 56px;border-bottom:1px solid var(--line);background:var(--card)}
-.kpi{padding:36px 28px 38px;position:relative;border-right:1px solid var(--line)}
+.kpi{padding:22px 24px 24px;position:relative;border-right:1px solid var(--line)}
 .kpi:last-child{border-right:none}
-.kpi-num{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:500;letter-spacing:.16em;color:var(--muted-2);margin-bottom:18px}
-.kpi .lbl{font-family:'Manrope',sans-serif;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:24px}
-.kpi .val{font-family:'Manrope',sans-serif;font-weight:700;font-size:64px;line-height:.95;letter-spacing:-.045em;color:var(--ink);font-feature-settings:'tnum'}
-.kpi .val.small{font-family:'JetBrains Mono',monospace;font-weight:500;font-size:19px;letter-spacing:-.01em;line-height:1.2}
-.kpi .hint{font-family:'Manrope',sans-serif;font-size:14px;color:var(--muted);margin-top:18px;line-height:1.5;padding-top:16px;border-top:1px solid var(--line-2)}
+.kpi-num{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:500;letter-spacing:.16em;color:var(--muted-2);margin-bottom:10px}
+.kpi .lbl{font-family:'Manrope',sans-serif;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
+.kpi .val{font-family:'Manrope',sans-serif;font-weight:700;font-size:46px;line-height:.95;letter-spacing:-.045em;color:var(--ink);font-feature-settings:'tnum'}
+.kpi .val.small{font-family:'JetBrains Mono',monospace;font-weight:500;font-size:17px;letter-spacing:-.01em;line-height:1.2}
+.kpi .hint{font-family:'Manrope',sans-serif;font-size:13px;color:var(--muted);margin-top:12px;line-height:1.5;padding-top:12px;border-top:1px solid var(--line-2)}
 .kpi.alert .val{color:var(--red)}
+.kpi.accent .val{color:var(--red)}
 .kpi.ok .val{color:var(--green)}
 .kpi.warn .val{color:var(--ink)}
 .kpi.info .val{color:var(--ink)}
@@ -222,10 +223,10 @@ table.dtable .cell.mono{font-family:'JetBrains Mono',monospace;font-size:13.5px;
 
 <div class="colophon">
   <span><span class="dot"></span>Monitoreo continuo del calendario dinámico</span>
-  <span>Generado · 2026-05-27 08:22</span>
+  <span>Generado · 2026-05-27 08:30</span>
 </div>
 
-<div class="kpi-grid"><div class="kpi info"><div class="kpi-num">01</div><div class="lbl">Listings activos</div><div class="val">157</div><div class="hint">Último pipeline · 2026-05-26T13:00</div></div><div class="kpi info"><div class="kpi-num">02</div><div class="lbl">Cambios de strategy</div><div class="val">163</div><div class="hint">+54 añadida · ~92 modificada · −17 removida · 2026-05-26</div></div><div class="kpi info"><div class="kpi-num">03</div><div class="lbl">Cambios CDC</div><div class="val">8,002</div><div class="hint">Cambios en calendario dinámico · 2026-05-26</div></div><div class="kpi alert"><div class="kpi-num">04</div><div class="lbl">Overrides detectados</div><div class="val">35</div><div class="hint">Overrides activos · 2026-05-26</div></div></div>
+<div class="kpi-grid"><div class="kpi info"><div class="kpi-num">01</div><div class="lbl">Listings activos</div><div class="val">157</div><div class="hint">Último pipeline · 2026-05-26T13:00</div></div><div class="kpi accent"><div class="kpi-num">02</div><div class="lbl">Cambios de strategy</div><div class="val">163</div><div class="hint">+54 añadida · ~92 modificada · −17 removida · 2026-05-26</div></div><div class="kpi info"><div class="kpi-num">03</div><div class="lbl">Cambios CDC</div><div class="val">8,002</div><div class="hint">Cambios en calendario dinámico · 2026-05-26</div></div><div class="kpi accent"><div class="kpi-num">04</div><div class="lbl">Overrides detectados</div><div class="val">35</div><div class="hint">Overrides activos · 2026-05-26</div></div></div>
 
 <div class="tabs-wrap">
   <div class="tabs">
@@ -531,7 +532,7 @@ table.dtable .cell.mono{font-family:'JetBrains Mono',monospace;font-size:13.5px;
 <footer class="footer">
   <span>ULIV · Pricing Intelligence</span>
   <span class="mark">Fin del reporte</span>
-  <span>2026-05-27 08:22</span>
+  <span>2026-05-27 08:30</span>
 </footer>
 
 </div><!-- /.layer -->
